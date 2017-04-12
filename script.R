@@ -19,5 +19,5 @@ write.csv(dataFrame3, file = "us_sentiment_title.csv")
 write.csv(dataframe4, file="world_sentiment_title.csv")
 
 #plot the headline sentiment data
-plot(dataFrame3$sentiment)
-plot(dataframe4$sentiment)
+plot(dataFrame3$sentiment, main="Headlines Sentiments for US", xlab="Sentiment", ylab="Number of Articles")
+plot(dataframe4$sentiment, main="Headlines Sentiments for World", xlab="Sentiment", ylab="Number of Articles")
